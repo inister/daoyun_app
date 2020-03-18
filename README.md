@@ -1,2 +1,2 @@
-# daoyun_front
-web_front_source
+# daoyun_app
+app_resource
