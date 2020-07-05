@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.CustomToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:left_btn_visible="true"
+    app:left_btn_src="@mipmap/icon_back"
+    app:title_visible="true"
+    app:title_text="隐私政策"
+    tools:context="com.example.test.PrivacyPolicyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="到云隐私政策"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="版本：1.0.2    发布日期：2020-01-03"
+                android:textSize="15dp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      到云非常重视用户隐私政策并严格遵守相关的法律规定。请您仔细阅读《隐私政策》后再继续使用。如果您继续使用我们的服务，表示您已经充分阅读和理解我们协议的全部内容。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      云班课尊重并保护所有用户的个人隐私权。为了给您提供更准确、更优质的服务，云班课会按照本隐私政策的规定使用和披露您的个人信息。除本隐私政策另有规定外，在未征得您事先许可的情况下，云班课不会将这些信息对外披露或向第三方提供。云班课会不时更新本隐私政策。您在同意云班课服务使用协议之时，即视为您已经同意本隐私政策全部内容。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="目录"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="1. 定义"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2. 我们如何收集和使用您的信息"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="3. 我们如何使用 Cookie"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4. 我们如何共享、转让、公开披露您的信息"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="5. 事先征得授权同意的例外"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="6. 我们如何存储、保护您的个人信息"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="7. 您如何访问和管理数字隐私"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="8. 未成年人隐私保护特别约定"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="9. 隐私政策的变更"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="10. 联系我们"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1. 定义"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="    1.1 我们：是指北京智启蓝墨信息技术有限公司，及由上述公司开发运营的云班课 App 软件。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="    1.2 个人信息（出自于 GB/T 35273-2017 《信息安全技术个人信息安全规范》）：是指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。本隐私政策中涉及的个人信息包括自然人的基本资料（包括姓名、出生年份、性别、电话号码、电子邮箱）、网络身份标识信息（包括系统账号、邮箱地址以及与前述有关的密码）、个人财产信息（包括交易和消费记录、虚拟货币、虚拟交易等虚拟财产信息）、个人上网记录（包括网站浏览记录、软件使用记录、点击记录）、个人常用设备信息（包括硬件序列号、硬件型号、设备 MAC 地址、操作系统类型、唯一设备标识符）、个人位置信息（包括大概地理位置、精确定位信息）。我们实际具体收集的个人信息种类以下文描述为准。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1.3 个人敏感信息（出自于 GB/T 35273-2017 《信息安全技术个人信息安全规范》）：是指一旦泄露、非法提供或滥用可能危害人身和财产安全，极易导致个人名誉、身心健康受到损害或歧视性待遇等的个人信息。本隐私政策中涉及的个人敏感信息包括您的个人财产信息、网络身份标识信息、精准定位信息。我们实际具体收集的个人敏感信息种类以下文描述为准。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1.4 Cookie ：Cookie 是包含字符串的小文件，在您登入和使用网站或其他网络内容时发送、存放在您的计算机、移动设备或其他装置内（通常经过加密）。Cookie 同类技术是可用于与 Cookie 类似用途的其他技术，例如：Web Beacon、Proxy、嵌入式脚本等。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1.5 账号：当您注册账号并向我们提供一些个人信息，您就可以更好的使用我们的服务。当您访问云班课时，系统会利用这些账号信息对您进行身份验证，以防止未经授权的人员访问您的账号。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2. 我们如何收集和使用您的信息"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.1 云班课依据法律法规以及遵循正当、合法、必要的原则而收集和使用您在使用服务过程中主动提供或由于产品和/或服务需要而产生的个人信息。如果我们欲将您的个人信息用于本隐私政策未载明的其它用途，或基于特定目的将收集而来的信息用于其他目的，我们会及时以合理的方式向您告知，并在使用前再次征得您的同意。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.2 我们收集和使用的您的个人信息类型包括两种：第一种：我们产品与/或服务的核心业务功能所必需的信息：此类信息为产品与/或服务正常运行的必备信息，您须授权我们收集。如您拒绝提供，您将无法正常使用我们的产品与/或服务；第二种：附加业务功能可能需要收集的信息：此信息为非核心业务功能所需的信息，您可以选择是否授权我们收集。如您拒绝提供，将导致附加业务功能无法实现或无法达到我们拟达到的效果，但不影响您对核心业务功能的正常使用。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3 我们会为实现下述各项功能，收集和使用您的个人信息："
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.1 注册账号：当您注册云班课账号时，我们会收集您的手机号码，用于完成注册并保护您的账号安全。手机号码属于敏感信息，收集此项为了以此作为更为高效、可靠的登录凭证。您可以在注册完成后自行决定是否需要完善您的头像、姓名、昵称、性别、出生年份、学校、院系、身份、工号/学号等账号信息。如果您完善以上额外信息，将有助于我们为您提供更好的服务和体验。在上述额外信息中，如果您没有完善姓名和学号/工号信息，将会影响部分功能的使用，例如：创建班课、加入班课。除此之外的其他信息若不提供，不会影响使用产品的基本功能。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.2 当您使用云班课充值购买蓝豆（虚拟货币）时，我们会收集您的充值记录、消费记录信息，以便您查询自己的交易记录，同时尽最大程度保护您的财产、虚拟财产安全。上述信息属于敏感信息，但收集上述信息为实现相关功能所必须，否则将无法完成交易。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.3 我们会根据您加入或创建的班课所属课程，为您提供个性化的课程圈推荐，除取得您授权或法律法规另有规定外，我们不会将您的个人信息与您在应用程序中提供的任何个人身份信息相结合，以确保不识别到您个人。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.4 基于相机/摄像头的附加服务：您可在开启相机/摄像头权限后使用拍照上传、更换头像、扫码投屏等功能。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.5 基于相册（图片库/视频库）的图片/视频访问及上传的附加服务：您可以在开启权限后使用相关功能上传您的图片/视频，以实现更换头像、发布图片/视频类资源等功能。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.6 基于麦克风语音技术的附加服务：您使用语音录制上传资源/附件或发送语音消息时，我们会请求您授权麦克风权限，我们会收集您的语音内容，因为收集是实现该功能所必需的。我们会请求您的麦克风权限并收集您的语音内容。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2.3.7 基于文件存储（相册/存储卡读取权限）的图片/视频/本地数据库数据保存的服务：您可以在开启权限后使用相关功能将图片/视频资源保存到您的相册/本地存储中，可以将网络数据缓存到您的本地数据库中，节省数据流量。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2.3.8 当您在使用过程中出现程序崩溃时，为了优化您的使用体验，我们会采集并上报您的崩溃日志，iOS端会采集设备型号、系统版本等信息，安卓端会由腾讯 Bugly （第三方）收集和反馈您的崩溃信息， Bugly 会采集您的设备信息。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2.3.9 基于地理位置信息的服务：您使用签到或者设置院系功能时，我们会请求地理位置信息权限，因为获取此项是实现该功能所必需的，在选择学校/院系功能中，我们会将您的地理位置信息传递给高德 SDK 用于 POI 搜索，以获取您附近的院校信息。如果您是安卓用户，在使用签到功能时，百度 SDK 会获取您的地理位置信息，仅用于计算发起签到的老师与参与签到的学生之间的距离。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3. 我们如何使用 Cookie"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3.1 在您未拒绝接受 Cookie 的情况下，云班课会在您的计算机上设定或取用 Cookie ，以便您能登录或使用依赖于 Cookie 的云班课平台服务或功能。云班课使用 Cookie 可为您提供更加周到的个性化服务，包括推广服务。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3.2 您有权选择接受或拒绝接受 Cookie 。您可以通过修改浏览器设置的方式拒绝接受 Cookie 。但如果您选择拒绝接受 Cookie ，您可能无法登录或使用依赖于 Cookie 的云班课网络服务或功能。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3.3 通过云班课所设 Cookie 所取得的有关信息，将适用本政策。"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4. 我们如何共享、转让、公开披露您的信息"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.1 云班课不会向任何无关第三方提供、出售、出租、分享或交易您的个人登录信息。以下情况除外："
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4.1.1 事先已获得您的明确授权或同意；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4.1.2 根据适用的法律法规、法律程序、政府的强制命令或司法裁定而需共享您的个人信息；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.1.3 在法律要求或允许的范围内，为了保护云班课及其用户或社会公众的利益、财产或安全免遭损害而有必要提供您的个人信息给第三方；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.1.4 您的个人信息可能会在我们的关联产品之间共享。我们只会共享必要的个人信息，且这种共享亦受本隐私政策声明目的的约束。关联产品如要改变个人信息的处理目的，将再次征求您的授权同意；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.1.5 为了向您提供更完善、优质的产品和服务，我们的某些服务将由授权第三方提供。我们可能会与第三方共享您的某些个人信息，以提供更好的客户服务和用户体验。我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息。第三方无权将共享的个人信息用于任何其他用途。 服务商收集和处理信息等行为遵守其自身的隐私条款，而不适用于本政策。为了最大程度保障您的信息安全，我们建议您在使用任何第三方 SDK 类服务前先行查看其隐私条款。为保障您的合法权益，如您发现这等 SDK 或其他类似的应用程序存在风险时，建议您立即终止相关操作并及时与我们取得联系。 如果您拒绝第三方在提供服务时收集为提供服务所必须的个人信息，将可能导致您无法在我们的平台中使用该第三方服务。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1)阿里云提供的服务：当您注册云班课账号或使用短信验证码登录功能，以及忘记密码等需要获取短信验证码以核验您的身份的功能时，我们委托阿里云服务向您发送短信验证码以完成核验，此过程中阿里云服务会获取您的手机号码；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2)高德地图/百度地图提供的服务：您在选择学校/院系功能时，高德地图 SDK 需要读取您的位置信息来为您提供定位和 POI 搜索服务；如果您是安卓用户并使用签到功能时，百度地图 SDK 需要读取您的位置信息来为您提供定位服务；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3)友盟、微博、微信、腾讯 QQ 提供的服务：您可以将云班课的内容分享到第三方平台，如微博、微信朋友圈、微信好友、QQ 空间、QQ 好友，其 SDK 可能会收集您提供的信息，这些第三方平台统一使用友盟分享 SDK 管理，友盟 SDK 可能需要读取您的设备信息;"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4)TalkingData 提供的服务：我们使用由第三方 TalkingData 提供的统计分析服务，TalkingData 可能需要读取您的设备信息;"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      5)极光推送提供的服务：我们使用由极光推送（第三方）提供的推送服务用于推送/下发通知栏消息，极光推送SDK在注册时需要读取您的设备信息；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6)环信提供的服务：当您在使用讨论/答疑或私聊功能时，我们使用了环信 SDK 为您提供即时通信服务，环信 SDK 可能会读取您的设备信息，您在使用私聊或讨论答疑功能发送语音消息时，环信 SDK 会获取并保存您的语音内容，用于发送给指定方以及查看历史记录；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7)百度语音提供的服务：当您使用班课列表语音控制功能或课堂表现语音评分功能时，百度语音 SDK 会获取您的语音内容进行识别，帮助我们了解您的语音指令意图，此过程中可能需要读取您的设备信息；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      8)微信支付/支付宝提供的服务：在安卓设备中，当您使用微信支付或支付宝支付购买蓝豆时，为了让您完成交易、实现交易目的，微信支付 SDK 和支付宝 SDK 需要读取您的 IMEI 信息；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      9)腾讯Bugly提供的服务：我们会使用腾讯 Bugly SDK 来统计安卓用户在使用我们产品或服务过程中出现的崩溃或无响应等状况，Bugly SDK 可能需要读取您的设备信息。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.2 云班课亦不允许任何第三方以任何手段恶意收集、编辑、出售或者无偿传播您的个人信息。任何云班课平台用户如从事上述活动，一经发现，云班课有权立即终止与该用户的服务协议。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.3 如果我们的存储发生维修或升级，我们会事先发出推送消息来通知您，请您提前允许云班课消息通知。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.4 除非获取您的明确同意，我们不会将您的个人信息转让给任何公司、组织或个人。如果发生合并、收购或破产清算，将可能涉及到个人信息转让，此种情况下我们会要求新的持有您个人信息的公司、组织继续受本隐私政策的约束。如果本隐私政策中约定的个人信息的收集、处理方式发生任何改变，该公司、组织将重新向您征求授权同意。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4.5 除法律法规另有规定的或本政策另有约定外，我们不会对您的个人信息进行公开披露。如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5. 事先征得授权同意的例外"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      请您知悉，根据法律法规的规定，在下述情况下，共享、转让、公开披露您的个人信息无需事先征得您的授权同意："
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1)  与国家安全、国防安全直接相关的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2)  与公共安全、公共卫生、重大公共利益直接相关的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3)  与犯罪侦查、起诉、审判和判决执行等直接相关的；或根据法律法规的要求、行政机关或公检法等有权机关的要求的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4)  出于维护您或其他个人的生命、财产等重大合法权益但又很难得到您本人同意的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      5)  个人信息是您自行向社会公开的或者是从合法公开的渠道（如合法的新闻报道、政府信息公开等渠道）中收集到的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6)  根据与您签订和履行相关协议或其他书面文件所必需的；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7)  法律法规等规定的其他情形。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6. 我们如何存储、保护您的个人信息"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6.1 存储位置：云班课收集的有关您的信息和资料将保存在云班课及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或云班课收集信息和资料所在地的境外并在境外被访问、存储和展示。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6.2 存储期限：我们在为您提供满足产品和服务目的所必需且最短的期间内保留您的个人信息，例如：当您使用我们的注册功能时，我们需要收集您的手机号码，且在您提供后并在您使用该功能期间，我们需要持续保存您的手机号码，以向您正常提供该功能、保障您的账号和系统安全。此外，我们或对您的相关信息保存至相关法律所规定的必要期限（例如《电子商务法》规定：商品和服务信息、交易信息保存时间自交易完成之日起不少于三年）。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6.3 在超出上述存储期限后，我们会对您的个人信息进行删除或匿名化处理。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      6.4 信息保护：您的个人信息安全对于我们至关重要。我们将严格遵守相关法律法规，采取业内认可的合理可行的措施，保护您的个人信息。防止信息遭到未经授权的访问、披露、使用、修改，避免信息损坏或丢失。如您发现自己的个人信息泄密，尤其是您的账号及密码发生泄漏，请您立即联络我们客服，以便我们采取相应措施。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7. 您如何访问和管理数字隐私"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.1 您有权访问您的个人信息"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.1.1 您可以按照我们提供的产品和服务的相关说明（或设置），对您已提供给我们的相关个人信息进行查阅。包括："
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1)   基本信息：您可以通过登录 Web 版云班课，点击头像 -> “用户信息”，或登录云班课 App 进入“我的”-> 点击头像/昵称，以访问您账号中的个人资料信息，包括：头像、昵称、性别、出生年份、身份、学校院系、学号/工号等；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2)   账号信息：您可以通过登录 Web 版云班课，点击头像 -> “账号安全”，或登录云班课 App 进入“我的”->“设置”->“账号安全”，以访问您账号中的账号信息，包括：关联手机、绑定邮箱以及修改密码；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3)   权限设置：您可以通过登录云班课 App 进入“我的”->“设置”->“隐私设置”，根据指引更改您的手机权限设置，同意或撤回同意包括地理位置信息、相册、相机、麦克风、拨打电话（安卓）、文件存储和访问（安卓）的使用权限。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.1.2 使用信息：您可以通过相关产品页面随时查阅您的使用信息，包括：我创建的班课、我加入的班课等；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.1.3 其他信息：如果您在访问过程中遇到操作问题需获取其他前述无法获知的个人信息内容，您可通过本隐私政策提供的方式联系我们。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.2 注销账号"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.2.1 请注意，注销云班课账号是不可恢复的操作。在注销账号后，云班课将停止为您提供产品及（或）服务，并将删除该账号下您的个人信息，除非法律法规另有规定。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.2.2 如需注销账号请加 QQ 服务群：812128825，我们会有专人为您处理。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.3 当发生以下情况时，您可以直接要求我们删除您的个人信息，但已做匿名化处理或法律法规另有规定的除外："
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      1)   当我们处理个人信息的行为违反法律法规时；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      2)   当我们收集、使用您的个人信息，却未征得您的同意时；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      3)   当我们处理个人信息的行为违反了与您的约定时；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      4)   当您注销了云班课账号时；"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      5)   当我们终止服务及运营时。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      7.4 您有权撤回您对个人信息的授权。如前文所述，我们提供的产品和服务的部分功能需要获得您使用设备的相关权限（包括：地理位置、相机、麦克风等，具体以产品实际获取的功能为准）。您可以在授权后随时撤回（或停止）对该权限的继续授权。例如您可以通过 iOS 设备中的“设置-隐私-照片”来关闭您对手机相册的授权。您也可以通过注销账号的方式，永久撤回我们继续收集您个人信息的全部授权。您需理解，当您撤回授权后，我们无法继续为您提供撤回授权所对应的特定功能和/或服务。但您撤回授权的决定，不会影响此前基于您的授权而开展的个人信息处理。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="8. 未成年人隐私保护特别约定"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      8.1 未成年人使用我们的产品与/或服务前应取得其监护人的同意。如您为未成年人，在使用我们的产品与/或服务前，应在监护人监护、指导下共同阅读本隐私政策且应在监护人明确同意和指导下使用我们的产品与/或服务、提交个人信息。我们根据国家相关法律法规的规定保护未成年人的个人信息，只会在法律法规允许、监护人明确同意或保护您的权益所必要的情况下收集、使用或公开披露未成年人的个人信息。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      8.2 若您是未成年人的监护人，当您对您所监护的未成年人的个人信息有相关疑问时，您可以通过本隐私政策第10条“联系我们”中公示的联系方式与我们沟通解决。如果我们发现在未事先获得可证实的监护人同意的情况下收集了未成年人的个人信息，则会尽快删除相关数据。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="9. 隐私政策的变更"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      如果决定更改隐私政策，我们会在本政策中、本公司网站中以及我们认为适当的位置发布这些更改，以便您了解我们如何收集、使用您的个人信息，哪些人可以访问这些信息，以及在什么情况下我们会透露这些信息。您可以通过登录云班课 App 进入“我的”页面，随时查看我们的《隐私政策》。"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="10. 联系我们"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      您在使用云班课产品及（或）服务的过程中，如果对本《隐私政策》有任何的疑义或建议，或您认为您的个人信息没有得到本《隐私政策》规定的保护，您可以通过以下方式联系我们，云班课将真诚地处理您的投诉及建议。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      地址：北京市海淀区上地东路35号1号楼4层1-510-516室"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      邮编：100085"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      客服电话：400-008-1078"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      邮箱：feedback@mosoink.com"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄露，尤其是云班课用户名及密码发生泄露，请您立即联络云班课客服，以便云班课采取相应措施。"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="      感谢您花时间了解我们的隐私政策！我们将尽全力保护您的个人信息和合法权益，再次感谢您的信任！"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:lineSpacingExtra="5dp"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.example.test.CustomToolBar>

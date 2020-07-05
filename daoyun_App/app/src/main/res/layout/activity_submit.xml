@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.CustomToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:left_btn_visible="true"
+    app:left_btn_src="@mipmap/icon_back"
+    app:right_tv_visible="true"
+    app:right_tv_text="提交"
+    app:title_visible="true"
+    app:title_text="作答"
+    tools:context="com.example.test.ClassTabActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_score_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#008CC9"
+            android:text="作业分值10分"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="老师评分"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D8DDE1" />
+
+    <TextView
+        android:id="@+id/task_requirement_title_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:text="第十周项目任务"/>
+
+    <TextView
+        android:id="@+id/task_requirement_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingExtra="5dp"
+        android:scrollbars="vertical"
+        android:text="1、使用Token实现用户的身份验证
+1）登录成功后从服务器获得Token，保存在本地存储中
+2）每次向服务器请求时，带上Token
+3）Token为null或者不正确时，跳转到登录页
+2、实现自动登录
+1）默认30天，过期时间的刷新参考Token的做法
+2）密码服务器端通过密钥加密后保存在本地存储中
+3、实现注销功能
+4、实现修改密码功能
+备注：在周报中放上以上代码的GitHub链接"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#D8DDE1" />
+
+    <EditText
+        android:id="@+id/answer_Et"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:lineSpacingExtra="5dp"
+        android:textSize="17dp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:hint="请在此输入作业文字内容"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#D8DDE1" />
+
+        <TextView
+            android:id="@+id/add_doc_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="添加附件"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/add_doc_Iv"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+                <ImageView
+                    android:id="@+id/doc_img_6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:src="@drawable/add_doc"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</com.example.test.CustomToolBar>

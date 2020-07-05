@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.CustomToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:left_btn_visible="true"
+    app:left_btn_src="@mipmap/icon_back"
+    app:title_visible="true"
+    app:title_text="资源"
+    app:right_btn_visible="true"
+    app:right_btn_src="@mipmap/icon_search"
+    tools:context="com.example.test.ClassTabActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/empty_res"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/res_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:text="老师还没有在班课内上传资源哦~"/>
+
+    </LinearLayout>
+
+</com.example.test.CustomToolBar>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myCreate"
+        android:title="创建班课"/>
+    <item android:id="@+id/joinClass"
+        android:title="使用班课号加入班课"/>
+</menu>

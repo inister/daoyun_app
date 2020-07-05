@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.test.CustomToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:left_btn_visible="true"
+    app:left_btn_src="@mipmap/icon_back"
+    app:title_visible="true"
+    app:title_text="一键签到设置"
+    tools:context="com.example.test.OneBtnSignInSettingActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="距离极限设置"/>
+
+        <EditText
+            android:id="@+id/diatance_limit_Et"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="米"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_one_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始一键签到"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"/>
+
+</com.example.test.CustomToolBar>
